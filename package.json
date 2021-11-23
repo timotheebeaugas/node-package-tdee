@@ -1,0 +1,34 @@
+{
+  "name": "tdee-calculator",
+  "version": "0.1.0",
+  "description": "Package to calculate the Total Daily Energy Expenditure (TDEE)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timotheebeaugas/node-package-tdee.git"
+  },
+  "keywords": [
+    "energy",
+    "calories",
+    "sports",
+    "metabolism"
+  ],
+  "author": "Timothée BEAUGAS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timotheebeaugas/node-package-tdee/issues"
+  },
+  "homepage": "https://github.com/timotheebeaugas/node-package-tdee#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
