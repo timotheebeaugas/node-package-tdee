@@ -8,7 +8,7 @@ First of all the package converts the units to the metric system. He then checks
 
 ## Examples
 ```js
-import { Metabolism } from '@timotheebeaugas/tdee-calculator';
+import { Metabolism } from "./node_modules/tdee-calculator/src/index.js";
 
 /** 
  * Estimated daily calorie requirement for an average 20 year old American woman weighing 170.6 pounds and measuring 5 feet, 4 inches. 
@@ -30,10 +30,8 @@ console.log(CR7.TDEE()) // Total Daily Energy Expenditure: 3908 calories per day
 ```
 
 ## Development
-Check your Node version is at least `12.x`.
-
 ```bash
-$ git clone git@github.com:timotheebeaugas/tdee-calculator.git
+$ git clone git@github.com:timotheebeaugas/node-package-tdee
 $ cd node-package-tdee
 $ npm i
 ```
