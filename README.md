@@ -4,7 +4,7 @@ Simple node package to calculate Human Basal Metabolism Rate and Total Daily Ene
 
 Five calculation methods are available in the file `constants.js`. Metric and imperial units are accepted in arguments.
 
-First of all the package converts the units to the metric system. He then checks the validity of the arguments and return the number of daily calories needed to maintain the metabolism the indicated person.
+First of all the package converts the units to the metric system. He then checks the validity of the arguments and return the number of daily calories needed to maintain the metabolism of the indicated person.
 
 ## Examples
 ```js
